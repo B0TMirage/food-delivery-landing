@@ -8,25 +8,50 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <a href="/" class="header__logo">
-                <img src="./assets/images/logo.svg" alt="yellowkitchen Logo">
-            </a>
-            <ul class="header__menu-list">
-                <li class="header__menu-item">
-                    <img src="" alt="" class="header__menu-image">
+        <a href="/" class="header__logo">
+            <img src="./assets/images/logo.svg" alt="yellowkitchen Logo">
+        </a>
+        <ul class="header__menu-list">
+            <li class="header__menu-item">
+                <a href="#">
+                    <img src="./assets/icons/menu/person.svg" alt="person icon" class="header__menu-image">
                     <span>Log in</span>
-                </li>
-                <li class="header__menu-item">
-                    <img src="" alt="" class="header__menu-image">
+                </a>
+            </li>
+            <li class="header__menu-item">
+                <a href="#">
+                    <img src="./assets/icons/menu/cart.svg" alt="cart icon" class="header__menu-image">
                     <span>0</span>
-                </li>
-                <li class="header__menu-item">
-                    <button class="header__menu-button"></button>
-                </li>
-            </ul>
-        </div>
+                </a>
+            </li>
+            <li class="header__menu-item">
+                <button class="header__menu-button"></button>
+            </li>
+        </ul>
     </header>
+    <main class="content">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Your Food court at home</h1>
+                    <div class="hero__actions">
+                        <button class="hero__button">
+                            Delivery
+                            <span>Order in</span>
+                        </button>
+                        <button class="hero__button">
+                            Takeout
+                            <span>Grab and go</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="./assets/images/saladik.png" alt="delicious salad">
+                    <p class="hero__image-description">Fresh salad, Il Pasifigio</p>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="./js/main.js"></script>
 </body>
 </html>

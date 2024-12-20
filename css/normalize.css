@@ -90,3 +90,7 @@ label {
 legend {
 	display: block;
 }
+
+button {
+	cursor: default;
+}
