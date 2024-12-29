@@ -407,6 +407,138 @@ body {
     margin-top: 72px;
 }
 
+.instagramm {
+    margin-top: 72px;
+}
+
+.instagramm__title {
+    color: #313030;
+}
+
+.instagramm__title span {
+    color: #9093a6;
+}
+
+.instagramm__photos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.instagramm__photo {
+    border-radius: 6px;
+    max-width: 299px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.footer {
+    margin-top: 72px;
+    padding-block: 48px;
+    font-weight: 700;
+    color: var(--color-gray-light);
+    background-color: var(--color-gray-dark);
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top__logo-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+    width: 100%;
+    max-width: 296px;
+}
+
+.footer-top__dividing-line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-gray-light);
+}
+
+.footer-top__download-list {
+    display: flex;
+    column-gap: 8px;
+}
+
+.footer-top__navigation {
+    display: flex;
+    justify-content: center;
+    column-gap: 90px;
+}
+
+.footer-top__navigation-title {
+    font-family: var(--font-family-accent);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    color: var(--color-light);
+}
+
+.footer-top__navigation-list {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.footer-top__navigation-change-button {
+    display: inline-flex;
+    align-items: flex-end;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.footer-top__navigation-change-button::after {
+    content: '';
+    width: 24px;
+    aspect-ratio: 1;
+    background: url('../assets/icons/backdrop-icon.svg') no-repeat center/contain;
+}
+
+.footer-top__navigation-list address {
+    max-width: 288px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.footer-top__navigation-list address p{
+    font-weight: 300;
+    line-height: 1.5;
+    color: var(--color-light);
+}
+
+.footer-bottom {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-networks__list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.footer-bottom__privacy {
+    display: flex;
+    column-gap: 55px;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 1.33;
+    color: var(--color-light);
+}
+
+.footer-bottom__privacy-text {
+    font-weight: 400;
+}
+
 @media(max-width: 1500px) {
     .advantages{
         position: static;
