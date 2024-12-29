@@ -773,9 +773,8 @@ body {
     }
     
     .nearest-restaraunts__button {
-        width: 51px;
         height: 60px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .map {
@@ -794,5 +793,10 @@ body {
 @media(max-width: 360px) {
     .hero__button span {
         font-size: 10px;
+    }
+
+    .nearest-restaraunts__button {
+        width: 51px;
+        font-size: 12px;
     }
 }
