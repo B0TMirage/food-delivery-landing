@@ -76,35 +76,61 @@
                     <h2 class="restaraunts__title title">Restaurants</h2>
                     <button class="button restaraunts__button">show all</button>
                 </div>
-                <div class="restaraunts__slider-wrapper">
-                    <button class="slider__button-left"></button>
-                    <ul class="restaraunts__list">
-                        <li class="restaraunts__item">
-                            <img src="./assets/images/restaraunts/burger-d'lice.jpg" alt="" class="restaraunts__image">
-                            <div class="restaraunts__logo">
-                                <img src="./assets/icons/restaraunts/burger-d'lice.svg" alt="">
+                <div class="slider-wrapper restaraunts__slider-wrapper">
+                    <div class="slider-actions">
+                        <button class="slider-button" data-direction="left" style="display: none;"></button>
+                        <button class="slider-button" data-direction="right"></button>
+                    </div>
+                    <ul class="slider-list restaraunts__list">
+                        <li class="slider-item restaraunts__item">
+                            <img src="./assets/images/restaraunts/burger-d'lice.jpg" alt="" class="restaraunts__slider-food-photo">
+                            <div class="restaraunts__slider-logo">
+                                <img src="./assets/icons/restaraunts/burger-d'lice.svg" alt="" width="149" height="69">
                             </div>
                         </li>
-                        <li class="restaraunts__item">
-                            <img src="./assets/images/restaraunts/il-pastifigio.jpg" alt="" class="restaraunts__image">
-                            <div class="restaraunts__logo">
-                                <img src="./assets/icons/restaraunts/il-pastifigio.svg" alt="">
+                        <li class="slider-item restaraunts__item">
+                            <img src="./assets/images/restaraunts/il-pastifigio.jpg" alt="" class="restaraunts__slider-food-photo">
+                            <div class="restaraunts__slider-logo">
+                                <img src="./assets/icons/restaraunts/il-pastifigio.svg" alt="" width="151" height="32">
                             </div>
                         </li>
-                        <li class="restaraunts__item">
-                            <img src="./assets/images/restaraunts/vietnamese.jpg" alt="" class="restaraunts__image">
-                            <div class="restaraunts__logo">
-                                <img src="./assets/icons/restaraunts/vietnamese.svg" alt="">
+                        <li class="slider-item restaraunts__item">
+                            <img src="./assets/images/restaraunts/believe.jpg" alt="" class="restaraunts__slider-food-photo">
+                            <div class="restaraunts__slider-logo">
+                                <img src="./assets/icons/restaraunts/believe.svg" alt="" width="190" height="49">
                             </div>
                         </li>
-                        <li class="restaraunts__item">
-                            <img src="./assets/images/restaraunts/believe.jpg" alt="" class="restaraunts__image">
-                            <div class="restaraunts__logo">
-                                <img src="./assets/icons/restaraunts/believe.svg" alt="">
+                        <li class="slider-item restaraunts__item">
+                            <img src="./assets/images/restaraunts/vietnamese.jpg" alt="" class="restaraunts__slider-food-photo">
+                            <div class="restaraunts__slider-logo">
+                                <img src="./assets/icons/restaraunts/vietnamese.svg" alt="" width="109" height="75">
+                            </div>
+                        </li>
+                        <li class="slider-item restaraunts__item">
+                            <img src="./assets/images/restaraunts/burger-d'lice.jpg" alt="" class="restaraunts__slider-food-photo">
+                            <div class="restaraunts__slider-logo">
+                                <img src="./assets/icons/restaraunts/burger-d'lice.svg" alt="" width="149" height="69">
+                            </div>
+                        </li>
+                        <li class="slider-item restaraunts__item">
+                            <img src="./assets/images/restaraunts/il-pastifigio.jpg" alt="" class="restaraunts__slider-food-photo">
+                            <div class="restaraunts__slider-logo">
+                                <img src="./assets/icons/restaraunts/il-pastifigio.svg" alt="" width="151" height="32">
+                            </div>
+                        </li>
+                        <li class="slider-item restaraunts__item">
+                            <img src="./assets/images/restaraunts/believe.jpg" alt="" class="restaraunts__slider-food-photo">
+                            <div class="restaraunts__slider-logo">
+                                <img src="./assets/icons/restaraunts/believe.svg" alt="" width="190" height="49">
+                            </div>
+                        </li>
+                        <li class="slider-item restaraunts__item">
+                            <img src="./assets/images/restaraunts/vietnamese.jpg" alt="" class="restaraunts__slider-food-photo">
+                            <div class="restaraunts__slider-logo">
+                                <img src="./assets/icons/restaraunts/vietnamese.svg" alt="" width="109" height="75">
                             </div>
                         </li>
                     </ul>
-                    <button class="slider__button-right"></button>
                 </div>
             </div>
         </section>
@@ -127,59 +153,109 @@
                     <h2 class="specialities__title title">Specialities</h2>
                     <button class="button specialities__button">show all</button>
                 </div>
-                <div class="specialities__slider-wrapper">
-                    <button class="slider__button-left specialities__slider-button"></button>
-                    <ul class="specialities__list">
-                        <li class="specialities__item">
-                            <a href="#!" class="specialities__link">
-                                <img src="./assets/icons/specialities/bagel.svg" alt="" class="specialities__image">
-                                <span class="specialities__title">Bagel</span>
+                <div class="slider-wrapper specialities__slider-wrapper">
+                    <div class="slider-actions">
+                        <button class="slider-button" data-direction="left" style="display: none;"></button>
+                        <button class="slider-button" data-direction="right"></button>
+                    </div>
+                    <ul class="slider-list specialities__list">
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/bagel.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Bagel</p>
                             </a>
                         </li>
-                        <li class="specialities__item">
-                            <a href="#!" class="specialities__link">
-                                <img src="./assets/icons/specialities/burger.svg" alt="" class="specialities__image">
-                                <span class="specialities__title">Burger</span>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/burger.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Burger</p>
                             </a>
                         </li>
-                        <li class="specialities__item">
-                            <a href="#!" class="specialities__link">
-                                <img src="./assets/icons/specialities/chicken.svg" alt="" class="specialities__image">
-                                <span class="specialities__title">Chicken</span>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/chicken.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Chicken</p>
                             </a>
                         </li>
-                        <li class="specialities__item">
-                            <a href="#!" class="specialities__link">
-                                <img src="./assets/icons/specialities/fish.svg" alt="" class="specialities__image">
-                                <span class="specialities__title">Fish</span>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/fish.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Fish</p>
                             </a>
                         </li>
-                        <li class="specialities__item">
-                            <a href="#!" class="specialities__link">
-                                <img src="./assets/icons/specialities/fishnchips.svg" alt="" class="specialities__image">
-                                <span class="specialities__title">Fish’Chips</span>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/fishnchips.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Fish’Chips</p>
                             </a>
                         </li>
-                        <li class="specialities__item">
-                            <a href="#!" class="specialities__link">
-                                <img src="./assets/icons/specialities/salads.svg" alt="" class="specialities__image">
-                                <span class="specialities__title">Salads</span>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/salads.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Salads</p>
                             </a>
                         </li>
-                        <li class="specialities__item">
-                            <a href="#!" class="specialities__link">
-                                <img src="./assets/icons/specialities/pizza.svg" alt="" class="specialities__image">
-                                <span class="specialities__title">Pizza</span>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/pizza.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Pizza</p>
                             </a>
                         </li>
-                        <li class="specialities__item">
-                            <a href="#!" class="specialities__link">
-                                <img src="./assets/icons/specialities/pasta.svg" alt="" class="specialities__image">
-                                <span class="specialities__title">Pasta</span>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/pasta.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Pasta</p>
+                            </a>
+                        </li>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/bagel.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Bagel</p>
+                            </a>
+                        </li>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/burger.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Burger</p>
+                            </a>
+                        </li>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/chicken.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Chicken</p>
+                            </a>
+                        </li>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/fish.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Fish</p>
+                            </a>
+                        </li>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/fishnchips.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Fish’Chips</p>
+                            </a>
+                        </li>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/salads.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Salads</p>
+                            </a>
+                        </li>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/pizza.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Pizza</p>
+                            </a>
+                        </li>
+                        <li class="slider-item specialities__item">
+                            <a href="#!">
+                                <img src="./assets/icons/specialities/pasta.svg" alt="" class="specialities__icon">
+                                <p class="specialities__title">Pasta</p>
                             </a>
                         </li>
                     </ul>
-                    <button class="slider__button-right specialities__slider-button"></button>
                 </div>
             </div>
         </section>
@@ -323,6 +399,6 @@
             </div>
         </div>
     </footer>
-    <script src="./js/main.js"></script>
+    <script src="./js/slider.js"></script>
 </body>
 </html>
