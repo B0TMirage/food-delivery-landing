@@ -25,8 +25,7 @@ buttonWrapperElements.forEach(buttonWrapper => {
         const currentButton = e.target
         const currentSlider = currentButton.closest('.slider-wrapper').querySelector('.slider-list')
         const offset = currentSlider.querySelector('.slider-item').clientWidth + 18
-
-        console.log(currentSlider.querySelector('.slider-item').clientWidth)
+        
         currentSlider.scrollLeft += currentButton.dataset.direction === 'right' ? offset : -offset
     })
 })
